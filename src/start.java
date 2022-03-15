@@ -27,6 +27,9 @@ public class start {
         //三张底牌
         ArrayList<String> underPokes = new ArrayList<>();
 //       随机打乱原来的顺序， 洗牌
+
+
+
         Collections.shuffle(array);
         System.out.println("洗牌后打印：");
         System.out.println(array);
